@@ -9,3 +9,45 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+    /*
+    background: tomato;
+    padding: 15px;
+    width: 200px;
+    height: 225px;
+    margin-top: 10px;
+    margin: auto;
+    color: black;
+    text-align: center;
+    */
+    background: tomato;
+    padding: 10px;
+    width: 200px;
+    height: 100%;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.text {
+    margin: auto;
+}
+
+.isbnBlue {
+    color: blue;
+}
+
+.isbnGreen {
+    color: green;
+}
